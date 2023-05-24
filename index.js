@@ -5,8 +5,8 @@ import {
   getDocument,
   updateDocument,
 } from "./controllers/documentController.js";
-dotenv.config();
 
+dotenv.config();
 connectDB();
 const PORT = 9000;
 

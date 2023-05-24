@@ -5,10 +5,10 @@ import {
   getDocument,
   updateDocument,
 } from "./controllers/documentController.js";
+dotenv.config();
 
 connectDB();
 const PORT = 9000;
-dotenv.config();
 
 const io = new Server(PORT, {
   cors: {
